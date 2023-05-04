@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    @@include('html/head.html',{
+        "title": 'portfolio'
+    })
+    <body>
+        <div class="wrapper">
+            <nav class="nav">
+                <div class="container">
+                    <div class="nav-row">
+                        <a href="./index.html" class="logo"><span>Freelancer</span> portfolio</a>
+        
+                        <button class="dark-mode-btn">
+                            <img src="./img/svgicons/sun.svg" alt="light mode" class="dark-mode-btn__icon">
+                            <img src="./img/svgicons/moon.svg" alt="dark mode" class="dark-mode-btn__icon">
+                        </button>
+        
+                        <ul class="nav-list">
+                            <li class="nav-list__item">
+                                <a href="./index.html" class="nav-list__link nav-list__link--active">Projects</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="./skills.html" class="nav-list__link">Skills</a>
+                            </li>
+                            <li class="nav-list__item">
+                                <a href="./contacts.html" class="nav-list__link">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+               
+           </nav>
+           <header class="header">
+                <div class="header__wrapper">
+                    <img src="./img/Abstract.png" alt="back ground image">
+                    <h1 class="header__title"><strong>Hi, my name is <em>Valeriy</em></strong><br> a frontend developer</h1>
+                    <div class="header__text">
+                        <p>with passion for learning and creating.</p>
+                    </div>
+                    <div class="header__btn">
+                        <a href="./doc/Valeriy D. FE dev CV.pdf" download class="btn">Download CV</a>
+                    </div>
+                </div>
+           </header>
+           <main class="section">
+                <div class="container">
+                    <h2 class="project__title">Projects</h2>
+                    <div class="project__content">
+        
+                        <div class="project__content-card">
+                            <a href="./project-page1.html">
+                                <div class="project__content-card-img">     
+                                    <img src="./img/projects/Digital-agency-solution.png" alt="project-img01">   
+                                </div>
+                                <h3 class="project__content-card-text">Digital Agency Solution - layout</h3>
+            
+                            </a>
+                        </div>
+                        <div class="project__content-card">
+                            <a href="project-rentiz.html">
+                                <div class="project__content-card-img">
+                                    <img src="./img/projects/Rentiz.jpg" alt="project-img02">
+                                </div>
+                                <h3 class="project__content-card-text">Rentiz - layout</h3>
+            
+                            </a>
+                        </div>
+                        <div class="project__content-card">
+                            <a href="project- leasse-cars.html">
+                                <div class="project__content-card-img">
+                                    <img src="./img/projects/leasse-cars.jpg" alt="project-img03">
+                                </div>
+                                <h3 class="project__content-card-text">Leasse-cars - layout </h3>
+            
+                            </a>
+                        </div>
+                        <div class="project__content-card">
+                            <a href="project-lamborghini.html">
+                                <div class="project__content-card-img">
+                                    <img src="./img/projects/lamborghini.jpg" alt="project-img04">
+                                </div>
+                                <h3 class="project__content-card-text">Lamborghini-race - layout</h3>
+            
+                            </a>
+                        </div>
+                        <div class="project__content-card">
+                            <a href="project-site-layout.html">
+                                <div class="project__content-card-img">
+                                    <img src="./img/projects/Hlegals.jpg" alt="project-img05">
+                                </div>
+                                <h3 class="project__content-card-text">Landing</h3>
+            
+                            </a>
+                        </div>
+                        <div class="project__content-card">
+                            <a href="project-todo-ts.html">
+                                <div class="project__content-card-img">
+                                    <img src="./img/projects/todolist 2.jpg" alt="project-img06">
+                                </div>
+                                <h3 class="project__content-card-text">Todo List - React-ts-app</h3>
+            
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+           </main>
+            
+            @@include('html/footer.html')
+        </div>
+
+
+
+        <script src="js/app.min.js"></script>
+    </body>
+</html>
