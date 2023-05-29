@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-    @@include('html/head.html',{
-        "title": 'about page'
-    })
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>about page</title>
+</head>
     <body>
         <nav class="nav">
             <div class="container">
@@ -31,14 +35,14 @@
         <main class="section">
             <div class="container">
                 <div class="project-details">
-                    <h1 class="project__title">Todo List - React-ts-app</h1>
-                        <a href="https://valeriydolya.github.io/todolist-ts/">
-                            <img src="./img/projects/todolist 2.jpg" alt="project-img01">
+                    <h1 class="project__title">Oculus - layout</h1>
+                        <a href="https://valeriydolya.github.io/oculus/#">
+                            <img src="./img/projects/Screenshot oculus.jpg" alt="project-img01">
                         </a>
                     <div class="project-details__descr">
                         <p>Skills: HTML5, css3, sass(scss)</p>
                     </div>
-                    <a href="https://github.com/ValeriyDolya/todolist-ts" class="btn-outline">
+                    <a href="https://github.com/ValeriyDolya/oculus" class="btn-outline">
                         <p>GitHub repo</p>
                     </a>
                 </div>
@@ -46,7 +50,31 @@
             </div>
 
         </main>
-        @@include('html/footer.html')
+        <footer class="footer">
+    <div class="container">          
+        <ul class="social">
+
+            <li class="social__item">
+                <a href="https://t.me/dolyasv63">
+                    <img src="../img/svgicons/telegram.svg" alt="telegram">
+                </a>
+            </li>
+            <li class="social__item">
+                <a href="https://github.com/ValeriyDolya">
+                    <img src="../img/svgicons/gitHub.svg" alt="gitHub">
+                </a>
+            </li>
+            <li class="social__item">
+                <a href="https://www.linkedin.com/in/valeriy-dolya-1a2a0b246/">
+                    <img src="../img/svgicons/linkedIn.svg" alt="linkedIn">
+                </a>
+            </li>
+        </ul>
+        <div class="copyright">
+            <p>© 2022 frontend-dev.com</p>
+        </div>
+    </div>
+</footer>
         <script src="js/app.min.js"></script>
     </body>
 </html>
